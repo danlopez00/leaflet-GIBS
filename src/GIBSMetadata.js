@@ -1,4 +1,4 @@
-L.GIBS_LAYERS =
+L.GIBS_LAYERS = {
     "AMSRE_Brightness_Temp_89H_Day" : {
         "title" : "AMSRE_Brightness_Temp_89H_Day",
         "template" : "https://map1.vis.earthdata.nasa.gov/wmts-webmerc/AMSRE_Brightness_Temp_89H_Day/default/{Time}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png",
