@@ -1,6 +1,6 @@
 ## Leaflet-GIBS
 
-Leaflet plugin for [NASA EOSDIS GIBS](https://earthdata.nasa.gov/gibs) imagery integration. [96 products](https://wiki.earthdata.nasa.gov/display/GIBS/GIBS+Available+Imagery+Products) are available. Date can be set dynamically for multi-temporal products. No-data pixels of MODIS Multiband Imagery can be made transparent.
+Leaflet plugin for [NASA EOSDIS GIBS](https://earthdata.nasa.gov/gibs) imagery integration. [99 products](https://wiki.earthdata.nasa.gov/display/GIBS/GIBS+Available+Imagery+Products) are available. Date can be set dynamically for multi-temporal products. No-data pixels of MODIS Multiband Imagery can be made transparent.
 
 ### Example
 First, include list of GIBS products and the plugin itself:
@@ -11,7 +11,7 @@ First, include list of GIBS products and the plugin itself:
 Then create a GIBS layer:
 ```javascript
 var layer = new L.GIBSLayer('MODIS_Aqua_SurfaceReflectance_Bands721', {
-    date: new Date('2015/04/01'),
+    date: '2014-04-01',
     transparent: true
 }).addTo(map);
 ```
